@@ -1,0 +1,99 @@
+body
+{
+  background: rgba(0, 0, 0,.95);
+  
+}
+.intro h1{
+ 
+  color: deepskyblue;
+  font-size: 70px;
+  position: relative;
+  top: 20%;
+  left:19%;
+  text-shadow: 0 0 10px deepskyblue,
+  0 0 50px deepskyblue,
+  0 0 100px deepskyblue;
+  
+  
+}
+.option1 a{
+  color: deepskyblue;
+  position: absolute;
+  top:50%;
+  right:23%;
+  padding: 18px 45px;
+  font-size: 30px
+}
+.option1 a:hover{
+  color: blue;
+  background: #4fc3dc;
+  box-shadow: 0 0 10px #4fc3dc,
+  0 0 50px #4fc3dc,
+  0 0 100px #4fc3dc;
+}
+.option2 c{
+  color: ghostwhite;
+  text-shadow: 0 0 10px ghostwhite,
+  0 0 50px ghostwhite,
+  0 0 100px ghostwhite;
+  position: absolute;
+  top:75%;
+  font-size: 25px;
+  left: 47%;
+}
+.option3 a{
+  color: deepskyblue;
+  padding: 15px 45px;
+  position: absolute;
+  top:90%;
+  right:19%;
+  font-size: 30px;
+}
+.option3 a:hover{
+  color:red;
+  background-color: #ff2d75;
+  box-shadow: 0 0 10px #ff2d75,
+  0 0 50px #ff2d75,
+  0 0 100px #ff2d75;
+}
+.intro a{
+  color: ghostwhite ;
+  font-size: 30px;
+  text-shadow: 0 0 10px white,
+  0 0 50px white,
+  0 0 100px white;
+  position: absolute;
+  top:25%;
+  left:0%;
+}
+.intro b{
+  color:green;
+  text-shadow: 0 0 10px green,
+  0 0 50px green,
+  0 0 100px green;
+  font-size: 28px;
+  position: absolute;
+  top:25%;
+  left:14%;
+}
+.intro c{
+  color: ghostwhite;
+  text-shadow: 0 0 10px white,
+  0 0 50px white,
+  0 0 100px white;
+  position: absolute;
+  top:25%;
+  left:60%;
+  font-size: 26px;
+}
+.intro d{
+  color: yellow;
+  text-shadow: 0 0 10px yellow,
+  0 0 50px yellow,
+  0 0 100px yellow;
+  font-size: 35px;
+  position: absolute;
+  top:30%;
+  left:15%;
+  
+}

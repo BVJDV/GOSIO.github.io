@@ -1,0 +1,53 @@
+body{
+  background: linear-gradient(to right,#4fc3dc, #ff2d75) ;
+}
+.forms{
+  display: flex;
+  position: absolute;
+  background: rgba(225,225,225,.30);
+  gap: 10px;
+  top: 3%;
+  left: 3%;
+  right: 3%;
+  bottom: 3%;
+  padding: 100px 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.forms input{
+  padding: 30px 40px;
+  background: transparent;
+}
+.sbtn a{
+  height: 60px;
+  width: 290px;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration-line: none;
+  font-size: 20px;
+}
+.forms h1{
+  font-size: 60px;
+  color: yellow;
+  text-shadow: 0 0 10px yellow,
+  0 0 50px yellow,
+  0 0 100px yellow;
+}
+.d a{
+  visibility: hidden;
+}
+.sbtn a {
+  color: purple;
+}
+.sbtn a:hover{
+  color: purple;
+  text-shadow: 0 0 10px purple,
+  0 0 50px purple,
+  0 0 100px purple;
+  background-color: green,
+
+}
