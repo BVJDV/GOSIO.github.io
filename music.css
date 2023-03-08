@@ -1,1 +1,150 @@
+body{
+  background: black;
+}
+ul{
+  list-style: none;
+  background: transparent;
+  margin: 20px;
+  border:solid blue;
+  border-radius: 20px;
+  gap: 5px;
+  
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  gap: 10px;
+}
+ul li a{
+  text-decoration-line: none;
+  display: block;
+  padding: 30px 50px;
+  color: skyblue;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+  
+ul li a:hover{
+  background: transparent;
+  border:solid blue;
+  
+}
+ul li b{
+  display: block;
+  padding: 30px 50px;
+  color: skyblue;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  visibility: hidden;
+}
 
+.page{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: blue;
+}
+.a1{
+  padding: 60px 50px;
+  background: transparent;
+  border-radius: 5px;
+  border: solid blue;
+  border-color: blue;
+}
+.a1 audio{
+  font-size: 40px;
+  width: 600px;
+}
+.a2{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a2 audio{
+  width: 600px;
+}
+.a3{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a3 audio{
+ width: 600px;
+}
+.search input{
+  background: transparent;
+  height: 100px;
+  width: 800px;
+  border: solid blue;
+  border-radius: 50px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 10px,
+  0 0 50px blue,
+  0 0 100px blue;
+  position: relative;
+  left: 2%;
+  text-align: center;
+  
+}
+::placeholder{
+  color: white;
+  left: 30%;
+  font-size: 35px;
+}
+  button{
+  background: transparent;
+  border: solid blue;
+  border-radius: 55px;
+  font-size: 60px;
+  width: 150px;
+  position: relative;
+  left: 2%;
+  height: 120px;
+  
+}
+.a4{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a4 audio{
+ width: 600px;
+}
+.a5{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a5 audio{
+ width: 600px;
+}
+
+.a6{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a6 audio{
+ width: 600px;
+}
+
+.a7{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a7 audio{
+ width: 600px;
+}
+
+.a8{
+  padding: 60px 50px;
+  background: transparent;
+  border: solid blue;
+}
+.a8 audio{
+ width: 600px;
+}
