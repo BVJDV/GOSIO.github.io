@@ -1,0 +1,187 @@
+body{
+  background: white;
+  
+}
+.reach{
+  text-decoration-line: none;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.reach img{
+  gap: 20px;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  
+}
+
+
+b a{
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  padding: 5px 30px;
+  background: black;
+  color: white;
+  box-shadow: 8px 17px 26px black;
+  text-decoration-line: none;
+  border-radius: 3px;
+}
+h1{
+color: white;
+background: black;
+font-size: 30px;
+position: absolute;
+top: 15%;
+left: 3%;
+border-bottom: 2px solid black;
+border-right: 2px solid black;
+box-shadow: 5px 10px 15px black;
+padding: 5px 10px;
+  border-radius: 5px;
+}
+
+ul li img{
+  object-fit: cover;
+  height: 40px;
+  widows: 35px;
+  position: absolute;
+  left: 5%;
+}
+ul li a img{ 
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transition-property: rotate;
+  transition-duration: 100ms;
+}
+  
+ul .dropdown{
+  display: flex;
+  flex-direction: horizontal;
+  background: black;
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 3px 30px;
+
+}
+
+ul li:hover ul.dropdown{
+  display: flex;
+  flex-direction: horizontal;
+  box-shadow: 5px 10px 20px black;
+ visibility: visible; 
+ gap: 15px;
+}
+ul li a img:hover{
+  rotate: 90deg;
+}
+
+
+ul li  .dropdown li a{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration-line: none;
+}
+
+ul li .dropdown .contact{
+  
+  color: blue;
+}  
+
+ ul li .dropdown  li .contact{
+   color: blue;
+ }
+ .down{
+  position: absolute;
+  top: 120%;
+  left: 32%;
+  display: flex;
+  flex-direction: horizontal;
+  gap: 30px;
+  
+}
+.down a img{
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+  
+}
+.call a{
+  font-size: 10px;
+  padding: 10px 25px;
+  position: absolute;
+  background: blue;
+  color: black;
+  box-shadow: 5px 10px 15px blue;
+  color: white;
+  border-radius: 3px;
+  top: 35%;
+  left: 20%;
+  text-decoration-line: none;
+}
+.mail img{
+  object-fit: cover;
+  height: 50px;
+  width:50px;
+  position: absolute;
+  
+  
+}
+.whatapp a{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  padding: 10px 30px;
+  font-size: 10px;
+  background: blue;
+  box-shadow: 5px 10px 15px blue;
+  border-radius: 3px;
+  color: white;
+  text-decoration-line: none;
+}
+.message a{
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  padding: 10px 35px;
+  font-size: 10px;
+  background: blue;
+  box-shadow: 5px 10px 15px blue;
+  border-radius: 3px;
+  color: white;
+  text-decoration-line: none;
+}
+.mail a{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  padding: 10px 45px;
+  font-size: 10px;
+  background: blue;
+  box-shadow: 5px 10px 15px blue;
+  border-radius: 3px;
+  color: white;
+  text-decoration-line: none;
+}
+.call img{
+  position: absolute;
+  top: 33%;
+  
+}
+.whatapp img{
+  position: absolute;
+  top: 48%
+}
+.message img{
+  position: absolute;
+  top: 63%;
+}
+.mail img{
+  position: absolute;
+  top: 78%;
+}
