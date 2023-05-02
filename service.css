@@ -1,0 +1,158 @@
+body{
+background: white;
+  
+}
+ul li img{
+  object-fit: cover;
+  height: 40px;
+  widows: 35px;
+  position: absolute;
+  left: 5%;
+}
+ul li a img{ 
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transition-property: rotate;
+  transition-duration: 100ms;
+}
+  
+ul .dropdown{
+  display: flex;
+  flex-direction: horizontal;
+  background: black;
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 3px 30px;
+
+}
+
+ul li:hover ul.dropdown{
+  display: flex;
+  flex-direction: horizontal;
+  box-shadow: 5px 10px 20px black;
+ visibility: visible; 
+ gap: 15px;
+}
+ul li a img:hover{
+  rotate: 90deg;
+}
+
+
+ul li  .dropdown li a{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration-line: none;
+}
+
+ ul li .dropdown  li .service{
+   color: blue;
+ }
+ .down{
+  position: absolute;
+  top: 180%;
+  left: 37%;
+  display: flex;
+  flex-direction: horizontal;
+  gap: 20px;
+  
+}
+.down a img{
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
+  
+}
+.static a img{
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  box-shadow: 10px 20px 30px black;
+  border-radius: 5px;
+  background: rgba(0,0,0,.0)
+}
+.stxt{
+  font-size: 16px;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+.blog a img{
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 75%;
+  left: 2%;
+ box-shadow: 10px 20px 30px black;
+ border-radius: 5px;
+}
+.btxt{
+  position: absolute;
+  top: 115%;
+  left: 5%;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.mobile a img{
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 125%;
+  left: 2%;
+  border-radius: 5px;
+  box-shadow: 10px 20px 30px black;
+}
+.mtxt{
+position: absolute;
+top: 165%;
+left: 8%;
+border-bottom: 2px solid black;
+font-size: 16px;
+font-weight: bold;
+color: black;
+  
+}
+.sbtn{
+position: absolute;
+background: black;
+color: white;
+box-shadow: 5px 10px 20px black;
+padding: 5px 25px;
+border-radius: 2px;
+  top:53%;
+  left: 65%;
+  text-decoration-line: none;
+  
+}
+.bbtn{
+  text-decoration-line: none;
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 5px 25px;
+  box-shadow: 5px 10px 20px black;
+  top: 102%;
+  left: 65%;
+}
+.mbtn{
+  position: absolute;
+  top: 152%;
+  left: 65%;
+  padding: 5px 25px;
+  box-shadow: 5px 10px 15px black;
+  background: black;
+  color: white;
+  text-decoration-line: none;
+}
